@@ -1,3 +1,3 @@
 ﻿# DuAnWep_21004475_LeVanQui
- Nhóm chỉ cps 1 thành viên
+ Nhóm chỉ có 1 thành viên
  
