@@ -1,0 +1,83 @@
+:root{
+    --white--color: #f1f0ec;
+}
+*{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 15px;
+line-height: 13px;
+}
+a:hover{text-decoration: none;}
+
+
+/* HEADER */
+header{
+  background-color: black;
+  text-align: center;
+}
+header p{
+    padding: 10px;
+    margin: 0;
+    text-decoration: underline;
+  color: #F5F5F5;
+
+}
+
+
+
+/* NAV */
+nav .nav_center img{
+    width:100px;
+    height:33px;
+}
+nav .nav_center {text-align: center;}
+nav .nav-link{color:black}
+nav img{width: 43px;height: 48px;margin: 20px 0 20px 0;}
+
+nav { height: fit-content; padding: 0 20px;background-color: var(--white--color);}
+
+.nav_userVSshop{display: flex;}
+
+
+
+
+
+/* MAIN */
+main .login h5{text-align: center; font-weight: bolder; margin-bottom: 20px; font-size: xx-large;}
+main{background-color: var(--white--color);border-top: 1px solid #D9D9D9;}
+
+
+
+
+/* footer */
+footer{
+   
+    display: flex;
+    padding: 40px 0 ;
+    background-color: #000000;
+    justify-content: space-around;
+    color: #F5F5F5;
+   
+    }
+footer a{color: #F5F5F5; font-weight: 100;}
+footer li:first-child{margin: 20px 0;}
+footer img{
+        width: 15px;
+       
+}
+
+footer input{
+    border: none;
+    color: #F5F5F5;
+    background-color: #000000;
+    outline: none;
+    flex: 1;
+}
+footer .footer_email{
+    border-bottom: 2px solid white;
+    width: 100%;
+    display: flex;
+
+}
+footer .footer_MXH img{margin: 5px;}

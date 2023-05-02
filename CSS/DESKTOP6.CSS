@@ -1,0 +1,5 @@
+main .shopTheLook{display: grid; grid-template-columns: repeat(4,minmax(250px,1fr));}
+main .Shop{grid-column: 2/span 2;display: flex; flex-wrap: wrap;gap: 2%; row-gap:17px}
+main .sp{width: 49%;}
+main .Shop .sp img{width: 100%;}
+main h5{text-align: center; font-weight: bolder;padding: 20px;}

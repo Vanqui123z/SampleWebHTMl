@@ -1,0 +1,62 @@
+
+main{background-color:var(--white--color);font-weight: 400;padding-bottom: 100px;}
+main img{width: 100%;}
+main .main_DongGia{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+main .main_SanPhamMoi{
+    padding:0 50px ;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))
+}
+main .main_spHEPY{
+    padding:0 54px ;
+    gap :10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))
+}
+
+main h5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    padding-top: 50px ;
+}
+main .HeaderNote{
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+color: #000000;
+}
+
+main .footerNote{
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+main .footerNote span{
+    font-weight: 400;
+    margin-right:10px ;
+}
+main .footerNote .GiaCu{
+    text-decoration: line-through;
+}
+main .footerNote .GiaMoi{
+letter-spacing: 0.03em;
+color: #FF0000;
+
+}
+
