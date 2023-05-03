@@ -10,41 +10,48 @@
     <link rel="stylesheet" href="/CSS/CSSChung.css">
     <script src="/JS/jquery-3.3.1.min.js"></script>
     <script src="/JS/bootstrap.min.js"></script>
-    <title>PAGE3</title>
+
+    <title>PAGE6</title>
 </head>
 
 <body>
     <header>
-        <a href="#">
+        <a href="/HTML/DESKTOP3.HTML">
             <p>MIỄN PHÍ VẬN CUYỂN -> ĐƠN HÀNG TRÊN 1.399.000đ</p>
         </a>
     </header>
-    <nav class="d-sm-flex justify-content-between">
-        <a href="#">
+    <nav class="d-sm-flex justify-content-between ">
+        <button id="icon_search" type="button">
             <img src="/IMG/icon/lookup.png" alt="">
-        </a>
+        </button>
+        </buton>
+        <div id="search">
+            <button href="#" type="button"><img src="/IMG/icon/lookup.png" alt=""></button>
+            <input type="text" class="form-control " sty placeholder="Search our store" name="" id="">
+            <button href="" id="icon_close" type="button"><img src="/IMG/icon/close.png" alt=""></button>
+        </div>
         <div class="nav_center">
             <div class="nav_logo"><a href="/HTML/DESKTOP1.HTML">
                     <img src="/IMG/icon/logp.png" alt="">
                 </a>
             </div>
-            <div class="nav_menu">
-                <ul class="nav">
-                    <li class="nav-item"><a class="nav-link " href="/HTML/DESKTOP1.HTML">SHOP</a></li>
-                    <li class="nav-item"><a class="nav-link " href="#">LOOKBOOK</a></li>
-                    <li class="nav-item"><a class="nav-link " href="#">COLLECT</a></li>
-                    <li class="nav-item"><a class="nav-link " href="#">MEMBERSHIP</a></li>
-                    <li class="nav-item"><a class="nav-link " href="#">BLOG</a></li>
-                    <li class="nav-item"><a class="nav-link " href="#">VỀ CHÚNG TÔI</a>
-                    </li>
-                </ul>
-            </div>
+
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link " href="/HTML/DESKTOP1.HTML">SHOP</a></li>
+                <li class="nav-item"><a class="nav-link " href="/HTML/DESKTOP6.HTML">LOOKBOOK</a></li>
+                <li class="nav-item"><a class="nav-link " href="/HTML/DESKTOP7.HTML">COLLECT</a></li>
+                <li class="nav-item"><a class="nav-link " href="/HTML/DESKTOP3.HTML">MEMBERSHIP</a></li>
+                <li class="nav-item"><a class="nav-link " href="/HTML/DESKTOP8.HTML">BLOG</a></li>
+                <li class="nav-item"><a class="nav-link " href="/HTML/DESKTOP8.HTML">VỀ CHÚNG TÔI</a>
+                </li>
+            </ul>
+        </div>
         </div>
         <div class="nav_userVSshop">
-            <a href="#">
+            <a href="/HTML/DESKTOP3.HTML">
                 <img src="/IMG/icon/user.png" alt="">
             </a>
-            <a href="#">
+            <a href="/HTML/DESKTOP3.HTML">
                 <img src="/IMG/icon/gioHang.png" alt="">
             </a>
         </div>
@@ -55,18 +62,543 @@
 
         <div class="shopTheLook">
             <div class="Shop">
-                <div class="sp"><a href="#"><img src="/IMG/home/ShopOfLook/1.jpg" alt=""></a></div>
-                <div class="sp"><a href="#"><img src="/IMG/home/ShopOfLook/2.jpg" alt=""></a></div>
-                <div class="sp"><a href="#"><img src="/IMG/home/ShopOfLook/3.jpg" alt=""></a></div>
-                <div class="sp"><a href="#"><img src="/IMG/home/ShopOfLook/4.jpg" alt=""></a></div>
-                <div class="sp"><a href="#"><img src="/IMG/home/ShopOfLook/5.jpg" alt=""></a></div>
-                <div class="sp"><a href="#"><img src="/IMG/home/ShopOfLook/6.jpg" alt=""></a></div>
-                <div class="sp"><a href="#"><img src="/IMG/home/ShopOfLook/7.jpg" alt=""></a></div>
-                <div class="sp"><a href="#"><img src="/IMG/home/ShopOfLook/8.jpg" alt=""></a></div>
-                <div class="sp"><a href="#"><img src="/IMG/home/ShopOfLook/9.jpg" alt=""></a></div>
-                <div class="sp"><a href="#"><img src="/IMG/home/ShopOfLook/10.jpg" alt=""></a></div>
+                <div class="sp"><a href="#"><img src="/IMG/home/ShopOfLook/1.jpg" alt=""></a>
+                    <!-- button1 -->
+                    <div class="button_img button1">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="select_button" data-toggle="modal" data-target="#modelId1">
+                            <div class="inner">
+                                <img src="/IMG/home/ShopOfLook/ao1.webp" alt="">
+                                <div class="inner_name">TOBI® Waffle Longsleeve - Nude</div>
+                            </div>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="modelId1" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+                            aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <span class="image">Image - 1</span>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="face-in"></div>
+                                        <div class="information">
+                                            <img src="/IMG/home/ShopOfLook/1.jpg" alt="">
+                                            <div class="information_right">
+                                                <img src="/IMG/home/ShopOfLook/ao1.webp" alt="">
+                                                <p>TOBI® Waffle Longsleeve - Nude</p>
+                                                <span class="nomal">369.000₫</span>
+                                                <span class="line"> 460.000₫</span><br>
+                                                <select class="form-control" name="" id="">
+                                                    <option value="" checked>S</option>
+                                                    <option value="">M</option>
+                                                    <option value="">L</option>
+                                                    <option value="">XL</option>
+                                                </select>
+                                                <button class="themSp form-control"> <a href="/HTML/DESKTOP3.HTML"> Thêm
+                                                        vào giả
+                                                        hàng
+                                                    </a></button>
+                                                <button class="chiTietSp form-control"> <a href="/HTML/DESKTOP3.HTML">
+                                                        Chi tiết sản
+                                                        phẩm
+                                                    </a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="sp"><a href="#"><img src="/IMG/home/ShopOfLook/2.jpg" alt=""></a>
+                    <!-- button2 -->
+                    <div class="button_img button2">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="select_button" data-toggle="modal" data-target="#modelId2">
+                            <div class="inner">
+                                <img src="/IMG/home/ShopOfLook/ao2.webp" alt="">
+                                <div class="inner_name">TTOBI® Waffle Longsleeve - Olive</div>
+                            </div>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="modelId2" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+                            aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <span class="image">Image - 2</span>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="face-in"></div>
+                                        <div class="information">
+                                            <img src="/IMG/home/ShopOfLook/2.jpg" alt="">
+                                            <div class="information_right">
+                                                <img src="/IMG/home/ShopOfLook/ao2.webp" alt="">
+                                                <p>TOBI® Waffle Longsleeve - Nude</p>
+                                                <span class="nomal">369.000₫</span>
+                                                <span class="line"> 460.000₫</span><br>
+                                                <select class="form-control" name="" id="">
+                                                    <option value="" checked>S</option>
+                                                    <option value="">M</option>
+                                                    <option value="">L</option>
+                                                    <option value="">XL</option>
+                                                </select>
+                                                <button class="themSp form-control"> <a href="/HTML/DESKTOP3.HTML"> Thêm
+                                                        vào giả
+                                                        hàng
+                                                    </a></button>
+                                                <button class="chiTietSp form-control"> <a href="/HTML/DESKTOP3.HTML">
+                                                        Chi tiết sản
+                                                        phẩm
+                                                    </a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="sp"><a href="#"><img src="/IMG/home/ShopOfLook/3.jpg" alt=""></a><!-- button3 -->
+                    <div class="button_img button3">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="select_button" data-toggle="modal" data-target="#modelId3">
+                            <div class="inner">
+                                <img src="/IMG/home/ShopOfLook/ao3.webp" alt="">
+                                <div class="inner_name">TOBI® Waffle Longsleeve - Black</div>
+                            </div>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="modelId3" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+                            aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <span class="image">Image - 3</span>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="face-in"></div>
+                                        <div class="information">
+                                            <img src="/IMG/home/ShopOfLook/3.jpg" alt="">
+                                            <div class="information_right">
+                                                <img src="/IMG/home/ShopOfLook/ao3.webp" alt="">
+                                                <p>TOBI® Waffle Longsleeve - Nude</p>
+                                                <span class="nomal">369.000₫</span>
+                                                <span class="line"> 460.000₫</span><br>
+                                                <select class="form-control" name="" id="">
+                                                    <option value="" checked>S</option>
+                                                    <option value="">M</option>
+                                                    <option value="">L</option>
+                                                    <option value="">XL</option>
+                                                </select>
+                                                <button class="themSp form-control"> <a href="/HTML/DESKTOP3.HTML"> Thêm
+                                                        vào giả
+                                                        hàng
+                                                    </a></button>
+                                                <button class="chiTietSp form-control"> <a href="/HTML/DESKTOP3.HTML">
+                                                        Chi tiết sản
+                                                        phẩm
+                                                    </a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="sp"><a href="#"><img src="/IMG/home/ShopOfLook/4.jpg" alt=""></a> <!-- button4 -->
+                    <div class="button_img button4">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="select_button" data-toggle="modal" data-target="#modelId4">
+                            <div class="inner">
+                                <img src="/IMG/home/ShopOfLook/ao4.webp" alt="">
+                                <div class="inner_name">TOBI® Waffle Longsleeve - Mocha</div>
+                            </div>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="modelId4" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+                            aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <span class="image">Image - 4</span>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="face-in"></div>
+                                        <div class="information">
+                                            <img src="/IMG/home/ShopOfLook/4.jpg" alt="">
+                                            <div class="information_right">
+                                                <img src="/IMG/home/ShopOfLook/ao4.webp" alt="">
+                                                <p>TOBI® Waffle Longsleeve - Nude</p>
+                                                <span class="nomal">369.000₫</span>
+                                                <span class="line"> 460.000₫</span><br>
+                                                <select class="form-control" name="" id="">
+                                                    <option value="" checked>S</option>
+                                                    <option value="">M</option>
+                                                    <option value="">L</option>
+                                                    <option value="">XL</option>
+                                                </select>
+                                                <button class="themSp form-control"> <a href="/HTML/DESKTOP3.HTML"> Thêm
+                                                        vào giả
+                                                        hàng
+                                                    </a></button>
+                                                <button class="chiTietSp form-control"> <a href="/HTML/DESKTOP3.HTML">
+                                                        Chi tiết sản
+                                                        phẩm
+                                                    </a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="sp"><a href="#"><img src="/IMG/home/ShopOfLook/5.jpg" alt=""></a><!-- button5 -->
+                    <div class="button_img button5">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="select_button" data-toggle="modal" data-target="#modelId5">
+                            <div class="inner">
+                                <img src="/IMG/home/ShopOfLook/ao5.jpg" alt="">
+                                <div class="inner_name">TOBI® Heavy Velvet Boxy Jacket</div>
+                            </div>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="modelId5" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+                            aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <span class="image">Image - 5</span>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="face-in"></div>
+                                        <div class="information">
+                                            <img src="/IMG/home/ShopOfLook/5.jpg" alt="">
+                                            <div class="information_right">
+                                                <img src="/IMG/home/ShopOfLook/ao5.jpg" alt="">
+                                                <p>TOBI® Waffle Longsleeve - Nude</p>
+                                                <span class="nomal">369.000₫</span>
+                                                <span class="line"> 460.000₫</span><br>
+                                                <select class="form-control" name="" id="">
+                                                    <option value="" checked>S</option>
+                                                    <option value="">M</option>
+                                                    <option value="">L</option>
+                                                    <option value="">XL</option>
+                                                </select>
+                                                <button class="themSp form-control"> <a href="/HTML/DESKTOP3.HTML"> Thêm
+                                                        vào giả
+                                                        hàng
+                                                    </a></button>
+                                                <button class="chiTietSp form-control"> <a href="/HTML/DESKTOP3.HTML">
+                                                        Chi tiết sản
+                                                        phẩm
+                                                    </a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="sp"><a href="#"><img src="/IMG/home/ShopOfLook/6.jpg" alt=""></a> <!-- button6 -->
+                    <div class="button_img button6">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="select_button" data-toggle="modal" data-target="#modelId6">
+                            <div class="inner">
+                                <img src="/IMG/home/ShopOfLook/ao6.webp" alt="">
+                                <div class="inner_name">TOBI Fleece Reversible Boxy Hoodie - Sage Green</div>
+                            </div>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="modelId6" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+                            aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <span class="image">Image - 6</span>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="face-in"></div>
+                                        <div class="information">
+                                            <img src="/IMG/home/ShopOfLook/6.jpg" alt="">
+                                            <div class="information_right">
+                                                <img src="/IMG/home/ShopOfLook/ao6.webp" alt="">
+                                                <p>TOBI® Waffle Longsleeve - Nude</p>
+                                                <span class="nomal">369.000₫</span>
+                                                <span class="line"> 460.000₫</span><br>
+                                                <select class="form-control" name="" id="">
+                                                    <option value="" checked>S</option>
+                                                    <option value="">M</option>
+                                                    <option value="">L</option>
+                                                    <option value="">XL</option>
+                                                </select>
+                                                <button class="themSp form-control"> <a href="/HTML/DESKTOP3.HTML"> Thêm
+                                                        vào giả
+                                                        hàng
+                                                    </a></button>
+                                                <button class="chiTietSp form-control"> <a href="/HTML/DESKTOP3.HTML">
+                                                        Chi tiết sản
+                                                        phẩm
+                                                    </a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="sp"><a href="#"><img src="/IMG/home/ShopOfLook/7.jpg" alt=""></a><!-- button7 -->
+                    <div class="button_img button7">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="select_button" data-toggle="modal" data-target="#modelId7">
+                            <div class="inner">
+                                <img src="/IMG/home/ShopOfLook/ao7.webp" alt="">
+                                <div class="inner_name">TOBI Fleece Reversible Boxy Hoodie - Dark Mocha</div>
+                            </div>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="modelId7" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+                            aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <span class="image">Image - 7</span>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="face-in"></div>
+                                        <div class="information">
+                                            <img src="/IMG/home/ShopOfLook/7.jpg" alt="">
+                                            <div class="information_right">
+                                                <img src="/IMG/home/ShopOfLook/ao7.webp" alt="">
+                                                <p>TOBI® Waffle Longsleeve - Nude</p>
+                                                <span class="nomal">369.000₫</span>
+                                                <span class="line"> 460.000₫</span><br>
+                                                <select class="form-control" name="" id="">
+                                                    <option value="" checked>S</option>
+                                                    <option value="">M</option>
+                                                    <option value="">L</option>
+                                                    <option value="">XL</option>
+                                                </select>
+                                                <button class="themSp form-control"> <a href="/HTML/DESKTOP3.HTML"> Thêm
+                                                        vào giả
+                                                        hàng
+                                                    </a></button>
+                                                <button class="chiTietSp form-control"> <a href="/HTML/DESKTOP3.HTML">
+                                                        Chi tiết sản
+                                                        phẩm
+                                                    </a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="sp"><a href="#"><img src="/IMG/home/ShopOfLook/8.jpg" alt=""></a><!-- button8 -->
+                    <div class="button_img button8">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="select_button" data-toggle="modal" data-target="#modelId8">
+                            <div class="inner">
+                                <img src="/IMG/home/ShopOfLook/ao8.webp" alt="">
+                                <div class="inner_name">TOBI Fleece Reversible Boxy Hoodie - Black</div>
+                            </div>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="modelId8" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+                            aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <span class="image">Image - 8</span>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="face-in"></div>
+                                        <div class="information">
+                                            <img src="/IMG/home/ShopOfLook/8.jpg" alt="">
+                                            <div class="information_right">
+                                                <img src="/IMG/home/ShopOfLook/ao8.webp" alt="">
+                                                <p>TOBI® Waffle Longsleeve - Nude</p>
+                                                <span class="nomal">369.000₫</span>
+                                                <span class="line"> 460.000₫</span><br>
+                                                <select class="form-control" name="" id="">
+                                                    <option value="" checked>S</option>
+                                                    <option value="">M</option>
+                                                    <option value="">L</option>
+                                                    <option value="">XL</option>
+                                                </select>
+                                                <button class="themSp form-control"> <a href="/HTML/DESKTOP3.HTML"> Thêm
+                                                        vào giả
+                                                        hàng
+                                                    </a></button>
+                                                <button class="chiTietSp form-control"> <a href="/HTML/DESKTOP3.HTML">
+                                                        Chi tiết sản
+                                                        phẩm
+                                                    </a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="sp"><a href="#"><img src="/IMG/home/ShopOfLook/9.jpg" alt=""></a><!-- button9 -->
+                    <div class="button_img button9">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="select_button" data-toggle="modal" data-target="#modelId9">
+                            <div class="inner">
+                                <img src="/IMG/home/ShopOfLook/ao9.webp" alt="">
+                                <div class="inner_name">TOBI®Angel Wings Varsity Jacket - Black</div>
+                            </div>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="modelId9" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
+                            aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <span class="image">Image - 9</span>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="face-in"></div>
+                                        <div class="information">
+                                            <img src="/IMG/home/ShopOfLook/9.jpg" alt="">
+                                            <div class="information_right">
+                                                <img src="/IMG/home/ShopOfLook/ao9.webp" alt="">
+                                                <p>TOBI® Waffle Longsleeve - Nude</p>
+                                                <span class="nomal">369.000₫</span>
+                                                <span class="line"> 460.000₫</span><br>
+                                                <select class="form-control" name="" id="">
+                                                    <option value="" checked>S</option>
+                                                    <option value="">M</option>
+                                                    <option value="">L</option>
+                                                    <option value="">XL</option>
+                                                </select>
+                                                <button class="themSp form-control"> <a href="/HTML/DESKTOP3.HTML"> Thêm
+                                                        vào giả
+                                                        hàng
+                                                    </a></button>
+                                                <button class="chiTietSp form-control"> <a href="/HTML/DESKTOP3.HTML">
+                                                        Chi tiết sản
+                                                        phẩm
+                                                    </a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="sp"><a href="#"><img src="/IMG/home/ShopOfLook/10.jpg" alt=""></a><!-- button10 -->
+                    <div class="button_img button10">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="select_button" data-toggle="modal" data-target="#modelId10">
+                            <div class="inner">
+                                <img src="/IMG/home/ShopOfLook/ao10.webp" alt="">
+                                <div class="inner_name">TOBI®Angel Wings Varsity Jacket - Beige</div>
+                            </div>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="modelId10" tabindex="-1" role="dialog"
+                            aria-labelledby="modelTitleId" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <span class="image">Image - 10</span>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="face-in"></div>
+                                        <div class="information">
+                                            <img src="/IMG/home/ShopOfLook/10.jpg" alt="">
+                                            <div class="information_right">
+                                                <img src="/IMG/home/ShopOfLook/ao10.webp" alt="">
+                                                <p>TOBI® Waffle Longsleeve - Nude</p>
+                                                <span class="nomal">369.000₫</span>
+                                                <span class="line"> 460.000₫</span><br>
+                                                <select class="form-control" name="" id="">
+                                                    <option value="" checked>S</option>
+                                                    <option value="">M</option>
+                                                    <option value="">L</option>
+                                                    <option value="">XL</option>
+                                                </select>
+                                                <button class="themSp form-control"> <a href="/HTML/DESKTOP3.HTML"> Thêm
+                                                        vào giả
+                                                        hàng
+                                                    </a></button>
+                                                <button class="chiTietSp form-control"> <a href="/HTML/DESKTOP3.HTML">
+                                                        Chi tiết sản
+                                                        phẩm
+                                                    </a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
+
+
+
     </main>
     <footer>
         <div class="footer_ThuongHieu">
@@ -107,5 +639,7 @@
     </footer>
 </body>
 <script src="/JS/DESKTOP6.JS"></script>
+<script src="/JS/JSChung.js"></script>
+
 
 </html>
