@@ -3,3 +3,44 @@ main .Shop{grid-column: 2/span 2;display: flex; flex-wrap: wrap;gap: 2%; row-gap
 main .sp{width: 49%;}
 main .Shop .sp img{width: 100%;}
 main h5{text-align: center; font-weight: bolder;padding: 20px;}
+
+
+main .information{ display:flex;
+    background-color: white;
+    height: 607px;
+    width: 844px;
+    border-radius: 0px;
+}
+
+main  .modal-content{width: fit-content; background-color: transparent;border: none ;}
+main .modal-dialog{max-width: none; width: fit-content;}
+main .modal-header{border: none; padding: 0; margin-top: 20px;color: white; font-weight: 100; letter-spacing: 2px; align-items: flex-end;}
+
+
+main .select_button{
+    border-radius: 50%;
+    height: 15px;
+    width: 0px;
+background-color: aqua;}
+main .select_button:hover{ background-color: orange; border: 2px solid black; border-radius: 50%;}
+main .select_button:hover .inner{display: block;animation: chuyencanh 0.5s ease-in-out ;}
+@keyframes chuyencanh {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+
+
+
+main .information img{height: 100%; margin: auto;display: flex;}
+main .information .information_right img{ height: 50%; margin-bottom: 20px;}
+main .information .information_right {width: 100%; padding: 0 20px;}
+main .information select{margin-top: 20px;}
+
+
+
+main .sp{position: relative;}
+main .button_img{position:absolute; top:30%; left:50%;}
+main .Shop button .inner{ width: 170px;display: none;}
+main .Shop .inner_name{background-color: black; color: white; padding: 10px;}
+

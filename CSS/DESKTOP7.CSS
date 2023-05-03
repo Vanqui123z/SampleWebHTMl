@@ -1,0 +1,30 @@
+main .main_header img{object-fit: cover;height: 43vmax;width: 98vmax;}
+main .main_header h1{color: white; position: absolute; left: 50%; top:50% ; transform:translate(-50%,-50%);animation:chuyen 1s forwards;}
+main .main_header { height: 100%; width: 100%; position: relative; animation:chuyen 1s forwards;}
+@keyframes chuyen{
+    from{
+        right:-100%;
+        opacity:0;
+    }to{
+        opacity:1;
+        right: 0;
+    }
+}
+
+
+main .main_main{display: grid; grid-template-columns: auto auto; gap:10px; height: 100%; width: 100%; padding: 20px 50px;animation:chuyen 1s ease-in-out}
+main .main_main img{ width: 100%; height: 100%;}
+main .main-1,.main-2{height: fit-content;text-align: center;}
+main  a{color: black;}
+main  a:hover{text-decoration: none; color: black;}
+
+
+main .main_footer{display: grid; grid-template-columns: auto auto auto; gap:10px; height: 100%; width: 100%; padding:50px; animation:chuyen 1s ease-in}
+main .main_footer img{ width:100%; height:100%;}
+main .footer-1,.footer-2,.footer-3{height: fit-content; text-align: center;}
+
+
+main .btn {border: 1px solid black;letter-spacing: 0.2em; border-radius: 0;}
+main p{margin:10px 0;font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;}

@@ -1,0 +1,71 @@
+
+main .containHeadeer .top1{display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,0.9fr));}
+main .containHeadeer .row_title{line-height: 36px; text-align: center;align-self: center; margin: 50px;}
+main .containHeadeer .row_title h5{
+   letter-spacing: 0.16em;
+   font-weight: 700;
+    font-size: 30px;
+    line-height: 36px; }
+main .containHeadeer .row_title p{
+    padding:0 50px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px
+}
+main .containHeadeer .row_title .row_titile_note{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+}
+main .containHeadeer .row_title img{
+    margin-top: 50px;    
+    width: 238px;
+    height: 51px;}
+main img { width: 100%; height: fit-content;}
+
+main .containMain{margin: 50px 100px;}
+main .containMain .top2 .row_img{background:  linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/IMG/home/VeChungToi/bia\ 2.webp);background-size: contain; content:"“Khát vọng thương hiệu Việt”";position: relative;}
+main .containMain .top2 .row_img::after{ content:"“Khát vọng thương hiệu Việt”"; position: absolute; top:60%; left:25%;color: white;letter-spacing: 0.15em;font-weight: 900;
+    font-size: 50px;
+    line-height: 61px;}
+main .containMain .top2 .row_img img{opacity: 0; }
+main .containMain .top2 .note{font-weight: 400;
+    font-size: 17px;
+    line-height: 26px}
+main .containMain .top2 .row_title {text-align: center;width: 100%; margin: 10px;}
+
+
+
+main .containMain .sp .row{display: grid; grid-template-columns: repeat(2,minmax(250px,1fr)); margin: 50px 0;}
+main .containMain .sp .row .row_title{margin: 40px; align-self: center;}
+main .containMain .sp .row:nth-child(2) .row_title{ grid-row: 1; grid-column: 1}
+main .containMain .sp .row:nth-child(4) .row_title{ grid-row: 1; grid-column: 1}
+
+
+main .containMain .sp .row .row_title p{letter-spacing: 0.05em;font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;}
+main .top3 .content_title{position:absolute; top:50%}
+main .top3 .row_img{background: linear-gradient(0deg,rgba(0 , 0, 0, 0.5),rgba(0,0,0,0.5)),url(/IMG/home/VeChungToi/bia\ 8.webp);background-size:contain;background-repeat:  no-repeat;;}
+main .top3 .row_img img{opacity: 0;}
+main .top3{width: 100%;position: relative}
+main .top3 .row_title{width: 100%; margin: 50px;text-align: -webkit-center;}
+main .top3 .row_title .content p{ width: 50rem;letter-spacing: 0.19em;font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;}
+main .top3 .row_title .content span{font-weight: 400;
+        font-size: 15px;
+        line-height: 30px;}
+
+main ul li{text-align: center; }
+main ul li span{font-weight: 400;}
+
+main .hanhTinhXanh{display: flex;justify-content: space-around; color: white;}
+main .hanhTinhXanh .title{width: 35%; padding-top: 50px;}
+main .hanhTinhXanh img{width:80%;}
+main .hanhTinhXanh .img{align-self: center;}
+main .hanhTinhXanh{background:  linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/IMG/home/VeChungToi/anh\ quat\ gio.webp);background-size: cover;background-repeat: no-repeat;height: 37rem;}
+
+
+main .ThanhTich img{height: 390px ;width: auto;}
+main .logo img{width: 150px; margin: 50px ;}

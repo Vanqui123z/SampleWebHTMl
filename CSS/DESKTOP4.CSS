@@ -1,7 +1,47 @@
 main .informationSp{display: grid; grid-template-columns: repeat(2,45%);gap:4%; justify-content: center;}
+main h5{margin-top: 50px;}
 main .left{display: grid ; grid-template-columns: 10% 80%; gap:10%}
 main .left .img_main{width: 100%;display: grid; grid-template-rows:repeat(4)}
-main .left .img_main img{ grid-row: 2 ;width: 100%; height: 100%;}
+main .left .img_main img{ grid-row: 2;width: 100%; width: 100%;}
 main .left .img_extra img{width: 100%; border: 1px solid black; margin: 10px 0;}
 
+main .right {font-weight:100 !important; }
+main .right img{width: 50px; height: auto;}
+main .right h4{font-weight: bold;margin: 20px 0;}
+main .right span{margin: 0 5px;}
+main .right .GroupSize{
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.25em;
+}
+main .right .size{letter-spacing:normal;}
+main .right .trangThai{padding:10px ; display: flex; align-items: center;}
+main .right  .circile{background: #00FF38; height: 6px; width: 6px; border-radius: 50%; margin-right: 10px;}
+main .right .trangThai p{margin: 0;}
+main .right .Them{border: 2px solid ;border-radius: 0;width: 100%; margin-bottom: 10px;}
+main .right .Mua{border: 2px solid ;border-radius: 0; background: black; color: white;width: 100%; margin-bottom: 30px;}
+main .right .information p,main .right .information ul li{margin: 0; line-height: 18px;}
+main .right .information p span{font-weight: 700;}
 
+
+main .right .combo p{margin: 0;}
+main .right .combo{background-color: white; border: 1px solid; border-radius: 10px;}
+main .right .combo button{border-radius:100px; border:  2px solid;letter-spacing: 0.2em; height: 100%;}
+main .right .combo .combo_price{ justify-content: space-evenly; align-items: center;margin: 20px 0;}
+main .right .combo .combo_price .combo_price_more{margin-left: 20px;}
+main .right .combo .right_select p{ margin: 0 10px;}
+main .right  .right_footer{border: 2px solid black; margin: 5px 0; width: 100%; text-align: left; padding: 10px;}
+
+
+
+
+
+/*  */
+main .alsoLike{display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); margin: 0 50px; border-bottom: 1px solid black; gap:20px}
+main .alsoLike img,main .viewed img{width: 100%;}
+main .alsoLike a,main .viewed a {color: black; font-weight: 100;}
+main .viewed{display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); margin: 0 70px;gap:20px}
+main .back{text-align: -webkit-center; padding: 50px 0;}
+main .back a{display: flex;width: 338px;height: 60px;background-color: black; align-items: center; justify-content: center;}
+main .back img{width: 40px;height: fit-content;}
