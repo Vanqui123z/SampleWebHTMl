@@ -49,6 +49,11 @@ main .top3 .content_title{position:absolute; top:50%}
 main .top3 .row_img{background: linear-gradient(0deg,rgba(0 , 0, 0, 0.5),rgba(0,0,0,0.5)),url(/IMG/home/VeChungToi/bia\ 8.webp);background-size:contain;background-repeat:  no-repeat;;}
 main .top3 .row_img img{opacity: 0;}
 main .top3{width: 100%;position: relative}
+main .top3 .comment{position: absolute; top:30%;width: 18%; right:20%;text-align: center;color: white;}
+
+
+main .top3 .comment b{font-size: xxx-large;line-height: 50px; margin-bottom: 10px; }
+main .top3 .comment p{padding-top: 20px; width: 100%;}
 main .top3 .row_title{width: 100%; margin: 50px;text-align: -webkit-center;}
 main .top3 .row_title .content p{ width: 50rem;letter-spacing: 0.19em;font-weight: 700;
     font-size: 20px;

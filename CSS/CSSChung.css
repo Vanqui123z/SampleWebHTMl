@@ -39,8 +39,7 @@ nav { height: fit-content; padding: 0 20px;background-color: var(--white--color)
 nav #search{position: absolute; top:0;left:0;height:110px; width: 100%; background-color:var(--white--color);display: flex;align-items: center;z-index: 1;}
 nav #search input{ background-color: var(--white--color); outline:none; width: 100%;}
 nav  button{border: none;}
-.nav_userVSshop{display: flex;}
-
+nav .nav_userVSshop{display: flex;}
 
 
 
