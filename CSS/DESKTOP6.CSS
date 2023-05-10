@@ -41,6 +41,6 @@ main .information select{margin-top: 20px;}
 
 main .sp{position: relative;}
 main .button_img{position:absolute; top:30%; left:50%;}
-main .Shop button .inner{ width: 170px;display: none;}
+main .Shop button .inner{ width: 170px;display: none;z-index:1;}
 main .Shop .inner_name{background-color: black; color: white; padding: 10px;}
 
